@@ -1,0 +1,23 @@
+{
+    "life": {
+        "distribution": "lognormal",
+        "shape": 0.4085361766068752,
+        "loc": 0,
+        "scale": 50.78864953479334
+    },
+    "property": {
+        "threshold": 63.15028434718563,
+        "body": {
+            "distribution": "lognormal",
+            "shape": 0.9403568096027769,
+            "loc": 0,
+            "scale": 7.282366949624924
+        },
+        "tail": {
+            "distribution": "gpd",
+            "shape": -1.716699131611263,
+            "loc": 0,
+            "scale": 411.88791509636127
+        }
+    }
+}
